@@ -51,6 +51,7 @@ int main()
     using namespace C; 
     InserterTail();
 
+    /* 输出的是c空间内嵌套的b空间的a的值*/
     std::cout<<C::B::a<<std::endl;
     return 0;
 }
